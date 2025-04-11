@@ -125,12 +125,41 @@ public class Javat112 {
         //     System.out.println();
         // }
 
+        // Triangle Pattern
+        //     *     
+        //    ***    
+        //   *****   
+        //  *******  
+        // ********* 
+        
+        // int num;
+        // Scanner s = new Scanner(System.in);
+        // num = s.nextInt();
+        // for (int i = 0; i < num; i+=2){
+        //     for (int a = 0; a < (num-i)/2; a++){
+        //         System.out.print(" ");
+        //     }
+        //     for (int b = 0; b <= i; b++)
+        //     {
+        //         System.out.print("*");
+        //     }
+        //     for (int a = 0; a < (num-i)/2; a++){
+        //         System.out.print(" ");
+        //     }
+        //     System.out.println();
+        // }
+        // s.close();
+
+
+
+
+
         // int a = 2;
         // while(a<5){
         //     System.out.println("While Loop"); a++;
         // }
 
-        
+
         // Do while Loop
         // int a;
         // Scanner s = new Scanner(System.in);
