@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class Java1103Que {
     public static void main(String[] args)
     {
-        // Q1
-        // int a;
-        // Scanner s = new Scanner(System.in);
-        // a = s.nextInt();
+        //Q1
+        int a;
+        Scanner s = new Scanner(System.in);
+        a = s.nextInt();
 
-        // if (a==0)
-        //     System.out.println("Zero");
-        // else if (a%2==0)
-        //     System.out.println("Even");
-        // else
-        //     System.out.println("Odd");
-        // s.close();
+        if (a==0)
+            System.out.println("Zero");
+        else if (a%2==0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+        s.close();
 
         // Q2
         // int b;
@@ -84,7 +84,8 @@ public class Java1103Que {
         // Scanner sc = new Scanner(System.in);
         // int base = sc.nextInt();
         // for (int i = 1; i <= 10; i++)
-        //     System.out.print(base * i + " ");
+        //     System.out.println(base + " * " + i + " = " + base * i);
+        // sc.close();
 
         //Q8
         // Scanner sc = new Scanner(System.in);
@@ -115,6 +116,7 @@ public class Java1103Que {
         // char inputChar = sc.next().charAt(0);
         // System.out.println("ASCII: " + (int)inputChar);
 
+        
         //Q12
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt(), fact = 1;
@@ -167,5 +169,8 @@ public class Java1103Que {
         //     default:
         //         System.out.println("Invalid Operator");
     
+        // Extra Time Coding
+        // Printing a reloading buffer
+        
     }
 }

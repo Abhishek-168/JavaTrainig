@@ -131,24 +131,20 @@ public class Javat112 {
         //   *****   
         //  *******  
         // ********* 
-        
-        // int num;
-        // Scanner s = new Scanner(System.in);
-        // num = s.nextInt();
-        // for (int i = 0; i < num; i+=2){
-        //     for (int a = 0; a < (num-i)/2; a++){
-        //         System.out.print(" ");
-        //     }
-        //     for (int b = 0; b <= i; b++)
-        //     {
-        //         System.out.print("*");
-        //     }
-        //     for (int a = 0; a < (num-i)/2; a++){
-        //         System.out.print(" ");
-        //     }
-        //     System.out.println();
-        // }
-        // s.close();
+        int num;
+        Scanner s = new Scanner(System.in);
+        num = s.nextInt();
+        for (int i = 0; i < num; i+=2){
+            for (int a = 0; a < (num-i)/2; a++){
+                System.out.print(" ");
+            }
+            for (int b = 0; b <= i; b++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        s.close();
 
 
 
