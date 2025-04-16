@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Javat112 {
     public static void main(String[] args) {
@@ -131,24 +131,54 @@ public class Javat112 {
         //   *****   
         //  *******  
         // ********* 
-        int num;
-        Scanner s = new Scanner(System.in);
-        num = s.nextInt();
-        for (int i = 0; i < num; i+=2){
-            for (int a = 0; a < (num-i)/2; a++){
-                System.out.print(" ");
-            }
-            for (int b = 0; b <= i; b++)
+        // int num;
+        // Scanner s = new Scanner(System.in);
+        // num = s.nextInt();
+        // for (int i = 0; i < num; i+=2){
+        //     for (int a = 0; a < (num-i)/2; a++){
+        //         System.out.print(" ");
+        //     }
+        //     for (int b = 0; b <= i; b++)
+        //     {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+        // s.close();
+
+        // *******
+        //  *****
+        //   ***
+        //    *
+        // int num;
+        // Scanner s = new Scanner(System.in);
+        // num = s.nextInt();
+        // for (int i = 0; i < num; i+=2){
+        //     for (int a = 0; a < i/2; a++){
+        //         System.out.print(" ");
+        //     }
+        //     for (int b = 0; b <= num-1-i; b++)
+        //     {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+        // s.close();
+
+        // A
+        // A B
+        // A B C
+        // A B C D
+
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 65; j <= 65 + i; j++)
             {
-                System.out.print("*");
+                System.out.print((char)(j) + " ");
             }
             System.out.println();
+
         }
-        s.close();
-
-
-
-
 
         // int a = 2;
         // while(a<5){
