@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Javat16 {
     public static void main(String[] args)
@@ -89,5 +89,21 @@ public class Javat16 {
         //     }
         // }
         // sc.close();
+
+        int[] arr1 = {1, 2,3,4,5};
+        int[] arr2 = {2,4,6,8,10};
+        
+        int sum = 0;
+        int []sumarr = {};
+        for (int i = 0; i < arr1.length; i++)
+        {
+            sum += arr1[i] + arr2[i];
+            sumarr[i] = sum;
+        }
+        System.out.println("Sum is " + sum);
+        for (int j = 0; j < arr1.length; j++)
+        {
+            System.out.print(sumarr[j] + " ");
+        }
     } 
 }
