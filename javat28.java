@@ -5,6 +5,7 @@ class javat28{
     {
     //     String str = "abhishek jain is the only jain in the class";
     //     HashMap<Character, Integer> map = new HashMap<>();
+    
 
     //     char[] arr = str.toCharArray();
     //     for (char i: arr)
@@ -28,9 +29,9 @@ class javat28{
 
         HashMap<Character, Integer> map = new HashMap<>();
 
-        for (char i : arr)
+        for (char m : arr)
         {
-            map.put(i, map.getOrDefault(i, 0)+1);
+            map.put(m, map.getOrDefault(m, 0)+1);
         }
         for (char c: arr)
         {
